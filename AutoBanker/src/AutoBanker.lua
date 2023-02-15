@@ -23,7 +23,6 @@ function AutoBanker.OnBankOpened(event, bankBag)
         for _, itemInBag in pairs(PlayerInventory) do
             for _, itemInBank in pairs(PlayerBank) do
                 if (itemInBag.name == itemInBank.name) then
-                    d("Found "..itemInBag.name.." in bank")
                     if IsProtectedFunction("RequestMoveItem") then
                         CallSecureProtected("RequestMoveItem", BAG_BACKPACK, itemInBag.slotIndex, BAG_BANK, itemInBank.slotIndex, 200)
                     end
