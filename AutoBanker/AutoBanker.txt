@@ -1,7 +1,7 @@
 ## Title: AutoBanker
 ## Description: Automatically bank items that are already in your bank, but also in your inventory
 ## Author: Estrela
-## APIVersion: 101036
+## APIVersion: 101037
 ## AddonVersion: 1
 ## Version: 1.0
 
